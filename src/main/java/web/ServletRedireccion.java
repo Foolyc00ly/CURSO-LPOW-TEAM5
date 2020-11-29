@@ -11,9 +11,9 @@ public class ServletRedireccion extends HttpServlet{
         HttpServletRequest req,
         HttpServletResponse res
     )throws ServletException,IOException{
-        String accion = req.getParameter("accion");
-        if(accion != null){
-            switch(accion){
+        String opts = req.getParameter("accion");
+        if(opts != null){
+            switch(opts){
 
                 default:
                     this.accionDefault(req, res);
@@ -27,9 +27,9 @@ public class ServletRedireccion extends HttpServlet{
         HttpServletRequest req,
         HttpServletResponse res
     )throws ServletException,IOException{
-        String accion = req.getParameter("accion");
-        if(accion != null){
-            switch(accion){
+        String opts = req.getParameter("opts");
+        if(opts != null){
+            switch(opts){
 
                 default:
                     this.accionDefault(req, res);
@@ -42,6 +42,6 @@ public class ServletRedireccion extends HttpServlet{
         HttpServletRequest req,
         HttpServletResponse res
     )throws ServletException,IOException{
-        res.sendRedirect("Vista/Principal/PageMain.jsp");
+        res.sendRedirect("PageMain.jsp");
     }
 }
