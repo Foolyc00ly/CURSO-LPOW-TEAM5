@@ -1,0 +1,11 @@
+git init
+git status
+git add .
+git commit -m "Commit inicr"
+
+////////////////////
+git status
+
+git remote add o http//github.com/Foolyc00ly/CURSO-LPOW-TEAM5.git
+git push -u o main 
+git branch -M main
