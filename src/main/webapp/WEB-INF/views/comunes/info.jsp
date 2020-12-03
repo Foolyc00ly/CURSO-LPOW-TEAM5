@@ -39,7 +39,7 @@
                     <td>     </td>
                     <td>Suministros</td>
                     <td>     </td>
-                    <td>Mï¿½quinas</td>
+                    <td>Máquinas</td>
                 </tr>
             </table>
         </div>

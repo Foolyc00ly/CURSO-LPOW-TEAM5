@@ -1,5 +1,9 @@
+domain\ConsultaDTO.class
 domain\ProductoDTO.class
-datos\ProductoDAO.class
+controllers\ServletControlador.class
+datos\IConsultaDAO.class
 datos\config\ConexionNew.class
 datos\IProductoDAO.class
 web\ServletRedireccion.class
+datos\ConsultaDAO.class
+datos\ProductoDAO.class

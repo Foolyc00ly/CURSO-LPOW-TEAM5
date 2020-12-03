@@ -1,5 +1,9 @@
+D:\Brad\Final\Proyecto_Lpow\src\main\java\domain\ConsultaDTO.java
 D:\Brad\Final\Proyecto_Lpow\src\main\java\datos\IProductoDAO.java
+D:\Brad\Final\Proyecto_Lpow\src\main\java\datos\ConsultaDAO.java
+D:\Brad\Final\Proyecto_Lpow\src\main\java\datos\IConsultaDAO.java
 D:\Brad\Final\Proyecto_Lpow\src\main\java\domain\ProductoDTO.java
 D:\Brad\Final\Proyecto_Lpow\src\main\java\datos\ProductoDAO.java
 D:\Brad\Final\Proyecto_Lpow\src\main\java\web\ServletRedireccion.java
+D:\Brad\Final\Proyecto_Lpow\src\main\java\controllers\ServletControlador.java
 D:\Brad\Final\Proyecto_Lpow\src\main\java\datos\config\ConexionNew.java
