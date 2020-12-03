@@ -5,5 +5,6 @@
 <div id="content" class="flex-1 container mx-auto p-9">
     <div align="center">
         <jsp:include page="/WEB-INF/views/comunes/info.jsp"/>
+        
     </div>
 </div>

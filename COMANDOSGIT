@@ -1,7 +1,7 @@
 git init
 git status
 git add .
-git commit -m "Commit inicr"
+git commit -m "Commit iniciar"
 
 ////////////////////
 git status

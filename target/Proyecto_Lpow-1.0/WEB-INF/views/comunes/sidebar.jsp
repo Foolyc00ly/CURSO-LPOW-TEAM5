@@ -4,9 +4,9 @@
     <div class="sidebar-logo">
         <div class="sidebar-logo_img">
             <img src="<%=request.getContextPath()%>/img/NEWLOGO.PNG" />
-        </div>bg-gray-900
+        </div>
     </div>
-    <a class="active bg-gray-900" href="<%=request.getContextPath()%>/Vista/Seguridad/Inicio_Usuarios.jsp">Iniciar Sesion</a>
-    <a href="#reservar">Reservar</a>
-    <a href="<%=request.getContextPath()%>/Vista/Registro/Registro_Nuevo.jsp">Registrate</a>
+    <a href="#!" class="active btn-login"><i class="fa fa-user" aria-hidden="true"></i>Iniciar Sesion</a>
+    <a href="${pageContext.request.contextPath}/ServletRedireccion?opts=reserva&idCliente=${idCliente}">Reservar</a>
+    <a href="${pageContext.request.contextPath}/ServletRedireccion?opts=registro&idCliente=${idCliente}">Registrate</a>
 </div>

@@ -5,14 +5,24 @@
     </div>
     <nav class="full-width NavBarP-Nav">
         <ul class="full-width list-unstyled">
-            <li>
-                <a href="${pageContext.request.contextPath}/ServletRedireccion?opts=&idCliente=${idCliente}">
+            <li><a href="${pageContext.request.contextPath}/ServletRedireccion?opts=&idCliente=${idCliente}">
                     Inicio
                 </a>
             </li>
-            <li><a href="#!">Productos</a></li>
+            <li><a href="${pageContext.request.contextPath}/ServletRedireccion?opts=productos&idCliente=${idCliente}">
+                Productos
+                </a>
+            </li>
 
-            <li><a href="#!">Acerca de</a></li>
+            <li><a href="${pageContext.request.contextPath}/ServletRedireccion?opts=nosotros&idCliente=${idCliente}">
+                Acerca de
+                </a>
+            </li>
+            <li><a href="${pageContext.request.contextPath}/ServletRedireccion?opts=contact&idCliente=${idCliente}">
+                Contactenos
+                </a>
+            </li>
+            <!-- MODAL -->
             <li>
                 <a href="#!" class="btn-login"><i class="fa fa-user" aria-hidden="true"></i> Log In</a>
                 <div class="full-width Login">
@@ -35,7 +45,9 @@
                     </form>
                     <hr>
                     <p class="text-center">¿Aún no tienes cuenta?</p>
-                    <a href="#!">CRÉATE UNA GRATIS</a>
+                    <a href="${pageContext.request.contextPath}/ServletRedireccion?opts=registro&idCliente=${idCliente}">
+                        CRÉATE UNA GRATIS
+                    </a>
                     </p>
                 </div>
             </li>

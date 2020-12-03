@@ -17,7 +17,7 @@
             <style><%@include file="/WEB-INF/css/tailwind.css"%></style>
         </head>
         <body class="flex flex-col h-full">
-            <jsp:include page="/WEB-INF/views/client/models/vistaClient.jsp"/>
+            <jsp:include page="/WEB-INF/views/client/models/vistaCliente.jsp"/>
             <jsp:include page="/WEB-INF/views/comunes/footer.jsp"/>
             <!--Bootstrap-->
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -25,6 +25,5 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
             <!--Scripts-->
             <script src="js/main.js"></script>
-            <%-- <script><jsp:include page="${pageContext.request.contextPath}/js/main.js"/></script> --%>
         </body>
     </html>

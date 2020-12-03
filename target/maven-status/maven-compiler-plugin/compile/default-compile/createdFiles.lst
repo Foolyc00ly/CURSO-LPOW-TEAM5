@@ -1,1 +1,5 @@
+domain\ProductoDTO.class
+datos\ProductoDAO.class
+datos\config\ConexionNew.class
+datos\IProductoDAO.class
 web\ServletRedireccion.class
